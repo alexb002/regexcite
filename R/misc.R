@@ -19,6 +19,6 @@ strsplit1 <- function(x, split) {
   strsplit(x, split = split)[[1]]
 }
 
-
+de
 load_all(path = "C:/Users/BROWNRIGGA01/Documents/R/regexcite/")
 

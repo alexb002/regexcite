@@ -19,5 +19,8 @@ strsplit1 <- function(x, split) {
   strsplit(x, split = split)[[1]]
 }
 
-load_all(path = "C:/Users/BROWNRIGGA01/Documents/R/regexcite/")
+setwd(dir = "C:/Users/BROWNRIGGA01/Documents/R/regexcite/R")
+use_r("strsplit1")
+
+load_all(path = "C:/Users/BROWNRIGGA01/Documents/R/regexcite/R")
 

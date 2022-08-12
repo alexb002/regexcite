@@ -27,3 +27,8 @@ load_all(path = "C:/Users/BROWNRIGGA01/Documents/R/regexcite/R")
 usethis::git_sitrep()
 usethis::use_git_config(scope = "user")
 usethis::git_vaccinate()
+
+remove.packages("devtools")
+install.packages("devtools")
+packageVersion(pkg = "devtools")
+

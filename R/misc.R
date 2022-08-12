@@ -19,9 +19,8 @@ strsplit1 <- function(x, split) {
   strsplit(x, split = split)[[1]]
 }
 
-setwd(dir = "C:/Users/BROWNRIGGA01/Documents/R/regexcite/R")
+setwd(dir = "C:/Users/BROWNRIGGA01/Documents/R/regexcite/")
 use_r("strsplit1")
-
 load_all(path = "C:/Users/BROWNRIGGA01/Documents/R/regexcite/R")
 
 usethis::git_sitrep()
@@ -32,3 +31,4 @@ remove.packages("devtools")
 install.packages("devtools")
 packageVersion(pkg = "devtools")
 
+load_all()

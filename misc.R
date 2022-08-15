@@ -81,3 +81,5 @@ document()
 load_all(path = "C:/Users/BROWNRIGGA01/Documents/R/regexcite/R")
 load_all(path = "C:/Users/BROWNRIGGA01/Documents/R/regexcite/tests/")
 
+str_split_one("a, b, c", pattern = ", ")
+#> [1] "a" "b" "c"

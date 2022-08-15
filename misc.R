@@ -83,3 +83,11 @@ load_all(path = "C:/Users/BROWNRIGGA01/Documents/R/regexcite/tests/")
 
 str_split_one("a, b, c", pattern = ", ")
 #> [1] "a" "b" "c"
+
+usethis::create_github_token(description = "regexcite test pkg")
+gitcreds::gitcreds_set()
+
+usethis::use_github()
+
+## temp git mod
+

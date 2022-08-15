@@ -89,5 +89,5 @@ gitcreds::gitcreds_set()
 
 usethis::use_github()
 
-## temp git mod
-
+use_readme_rmd()
+build_readme()
